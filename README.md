@@ -61,3 +61,5 @@ If you encounter any issues or have suggestions, please open an issue on [GitHub
 This project is licensed under the terms of the MIT License. See the [LICENSE](LICENSE) file for more details.
 
 ![Screenshot (45)](https://github.com/jaturongtee/PokedexProject1/assets/151636545/da067b2e-7bb4-48d8-b116-8f9c6e710b70)
+
+![Screenshot (46)](https://github.com/jaturongtee/PokedexProject1/assets/151636545/1edad3b6-eab9-4fdf-967b-49392f6c3667)
