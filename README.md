@@ -1,3 +1,10 @@
+React Pokedex
+A simple Pokedex application built with React, Axios, and the PokeAPI.
+
+![Screenshot (45)](https://github.com/jaturongtee/PokedexProject1/assets/151636545/da067b2e-7bb4-48d8-b116-8f9c6e710b70)
+
+
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
