@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import 'material-symbols';
+
+:root {
+    background-image:url(/bg.65cf6936.jpg);
+    font-family: 'Press Start 2P', system-ui;
+}

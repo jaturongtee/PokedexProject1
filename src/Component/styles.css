@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.material-symbols-outlined {
+  padding: px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 100px;
+}
+
+.Title {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  font-size: 50px;
+}
+
+.searchTools {
+  display: flex;
+  justify-content: center;
+  margin-top: 25px;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  padding-top: 100px;
+}
+
+.leftContainer,
+.rightContainer {
+  flex-basis: 50%;
+}
+
+.leftContainer {
+display: flex;
+flex-direction: column;
+}
+
+.rightContainer {
+  width: 50%;
+  text-align: center;
+  position: fixed;
+  top: 140px;
+  right: 10px;
+}
+
+.rightContainer p {
+  margin-top: 300px;
+  margin-left: 100px;
+  font-size: lar;
+}
+
+.rightContainer img {
+  margin: 2rem;
+}
+
+.card {
+  background-color: #9edef9;
+  border-radius: 1rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.card:hover {
+  transform: scale(1.01);
+}
+
+.card-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 3rem;
+  margin-bottom: 50px;
+}
+
+
+.type {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.type .group1 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-right: 5px;
+}
+
+.type .group2 {
+  background-color: black;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-left: 5px;
+}
+
+.base-stat {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-group {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.btn-group button {
+    border: none;
+    outline: none;
+    width: 150px;
+    padding: 0.3rem;
+    margin: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    background-color: rgb(232, 91, 91);
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-group button:hover {
+  background-color: rgb(207, 74, 74);
+  transform: scale(1.01);
+}
+
