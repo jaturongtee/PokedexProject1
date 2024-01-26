@@ -155,7 +155,8 @@ flex-direction: column;
   }
 
   .rightContainer {
-    top: 200px;
+    top: 12vh;
+    
   }
 
   .rightContainer img {
@@ -167,7 +168,22 @@ flex-direction: column;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
+
+  .leftContainer {
+    margin-left: -100px;
+  }
+  .rightContainer{
+    margin-right: -50px;
+  }
+  
+  .rightContainer img {
+    width: 250px;
+  }
+
+}
+
+@media screen and (max-width: 820px) {
   .card-container {
   display: grid;
   grid-template-columns: auto;
@@ -190,7 +206,7 @@ flex-direction: column;
 }
 
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 550px) {
   .rightContainer {
     display: none;
   }
